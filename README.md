@@ -4,7 +4,7 @@ This project was part of the [Research Project 2024](https://github.com/TU-Delft
 
 The code is built on top of an adaption of the CORL implementation of offline sac_n, found [here](https://github.com/tinkoff-ai/CORL?tab=readme-ov-file), to be used in environments with discrete actions.
 
-The results of the experiments can be found in `eval_rewards`, and `eval_rewards_bc` for WSAC-N and BC respectively. 
+The results of the experiments for WSAC-N and BC can be found in `eval_rewards` and `eval_rewards_bc` respectively. 
 There are examples on how to run experiments and plot the results in `train_bc.py` and `wsac_n_discrete.py` inside their respective `__main__` methods. 
 After uncommenting the relevant blocks, you can run them with `python train_bc.py` and `python wsac_n_discrete.py`. 
 
